@@ -21,7 +21,6 @@
 	<groupId>com.datacoper.eddc</groupId>
 	<artifactId>eddcTestApp</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-    <artifactId>eddcTestApp</artifactId>
     <packaging>war</packaging>
     <name>EDDC TEST APP</name>
     <description>Teste WS Milhoes de Registros</description>
@@ -40,6 +39,7 @@
         <dependency>
             <groupId>javax.enterprise</groupId>
             <artifactId>cdi-api</artifactId>
+			<version>2.0</version>
             <scope>provided</scope>
         </dependency>
 
@@ -48,6 +48,7 @@
         <dependency>
             <groupId>org.jboss.spec.javax.annotation</groupId>
             <artifactId>jboss-annotations-api_1.2_spec</artifactId>
+			<version>1.0.1.Final</version>
             <scope>provided</scope>
         </dependency>
 
@@ -55,6 +56,7 @@
         <dependency>
             <groupId>org.jboss.spec.javax.ws.rs</groupId>
             <artifactId>jboss-jaxrs-api_2.0_spec</artifactId>
+			<version>1.0.0.Final</version>
             <scope>provided</scope>
         </dependency>
     </dependencies>
