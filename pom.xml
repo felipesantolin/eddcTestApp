@@ -21,7 +21,6 @@
 	<groupId>com.datacoper.eddc</groupId>
 	<artifactId>eddcTestApp</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
-	<relativePath>../pom.xml</relativePath>
     <artifactId>eddcTestApp</artifactId>
     <packaging>war</packaging>
     <name>EDDC TEST APP</name>
